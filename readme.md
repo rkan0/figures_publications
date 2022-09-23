@@ -1,4 +1,4 @@
-Figures not published/submitted elsewhere. Includes code, sample dataset, and PDF of figure. 
+Figures not published/submitted elsewhere. Includes code, sample dataset, and PNG of figure. 
 
 ## scatterplot with connected paired data points
 
