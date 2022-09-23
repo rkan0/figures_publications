@@ -1,9 +1,10 @@
 library(tidyr)
 library(dplyr)
 library(ggplot2)
-library(lme4)
+library(ggnewscale)
 
-data <- read.csv("C:\\Users\\user\\Desktop\\scatterplot1_data.csv")
+#In this case the data is in wide format, with columns 'id', 'group' (2 levels), and more columns for each question. 
+data <- read.csv("scatterplot1_data.csv")
 data$group <- as.factor(data$group)
 data_long <- data %>%
   gather(id, response, Q1:Q30, factor_key=TRUE) %>%
@@ -11,19 +12,19 @@ data_long <- data %>%
 
 data2 <- data_long %>%
   group_by(id, group) %>%
-  dplyr::summarise(mean=sprintf("%0.2f", mean(response))) %>%
+  dplyr::summarise(mean=sprintf("%0.2f", mean(response))) %>% 
   spread(group,mean)
 
 data2$cond <- ifelse(data2$groupA >= data2$groupB, "groupA>=groupB", "groupB>groupA")
 data2 <- gather(data2, group, response, groupA:groupB, factor_key=TRUE)
 
 ggplot(data2, aes(x = id, y = as.numeric(response), color = group)) +
-  geom_point()+
-  scale_color_manual(values = c("darkblue", "orange")) + 
+  geom_point() +
+  scale_color_manual(values = c("darkblue", "orange"))+
   theme_classic() + 
   ylab("mean response") + xlab("question") + scale_x_discrete(breaks=NULL) +
   scale_y_continuous(limits = c(3, 8), breaks = seq(3, 8, by = 1)) +
-  new_scale_color() + 
+  ggnewscale::new_scale_color() + 
   geom_line(aes(group = id, color = cond)) +
   scale_color_manual(values = c("darkblue", "orange"))
 
