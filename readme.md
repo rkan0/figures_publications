@@ -1,4 +1,12 @@
-Figures not published/submitted elsewhere. Includes code, sample dataset, and PNG of figure. 
+Figures for work. Includes code, sample dataset, and PNG of figure. 
+
+## Barchart 
+
+Code for statistical tests and barchart in Kan & Murphy (2020). The original dataset is not provided and the data used here is generated to imitate the original (see script).
+
+<p align="left">
+<img src="barchart_k&m/barchart.png" width="500" alt="barchart">
+</p>
 
 ## scatterplot with connected paired data points
 
