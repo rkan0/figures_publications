@@ -9,7 +9,7 @@ Scatterplot to compare the data of two groups. Produced while developing Crossli
 </p>
 
 
-## Fundamental frequency of audio signals
+## F0/Fundamental frequency of audio signals
 
 Figure in Kan (2020) showing fundamental frequency (F0) contours of word tokens, to compare two methods for normalising F0 estimates (global in A vs local in B). Word tokens are produced in three target tones (T1, T3, and T6), sampled at 10 equidistant intervals (x-axis), and F0 estimates are converted to Chao’s tone letters (a tone notation/transcription scale) (y-axis). The horizontal lines show the conventional (theoretical) values of each tone.
 
