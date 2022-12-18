@@ -1,18 +1,27 @@
-Figures for work. Includes code, sample dataset, and PNG of figure. 
+Figures for work - here with generated data set as the original research (experimental) data is protected.
 
-## Barchart 
+## Scatterplot with connected paired data points
 
-Code for statistical tests and barchart in Kan & Murphy (2020). The original dataset is not provided and the data used here is generated to imitate the original (see script).
-
-<p align="left">
-<img src="barchart_k&m/barchart.png" width="500" alt="barchart">
-</p>
-
-## scatterplot with connected paired data points
-
-Scatterplot to compare the data of two groups. All participants give numerical responses to the same set of questions. Points on the graph represent the mean value of the response for each question for each group. The two points for a given question are joint by a line that takes the colour corresponding to the group producing the higher value. Also includes code for some additional comparisons between the two groups.
+Scatterplot to compare the data of two groups. Produced while developing Crosslinguistic Lexical Tasks: Cantonese version (CLT-CAN), a part of LITMUS COST IS0804 Battery (Kan et al., 2020). All participants gave numerical responses to the same set of questions. Points on the graph represent the mean value of the response for each question for each group. The two points for a given question are joint by a line that takes the colour corresponding to the group producing the higher value. Also includes code for some additional comparisons between the two groups.
 
 <p align="left">
 <img src="scatterplot_connectedpair/scatterplot1.png" width="500" alt="scatterplot with connected paired data points">
 </p>
 
+
+## Fundamental frequency of audio signals
+
+Figure in Kan (2020) showing fundamental frequency (F0) contours of word tokens, to compare two methods for normalising F0 estimates (global in A vs local in B). Word tokens are produced in three target tones (T1, T3, and T6), sampled at 10 equidistant intervals (x-axis), and F0 estimates are converted to Chao’s tone letters (a tone notation/transcription scale) (y-axis). The horizontal lines show the conventional (theoretical) values of each tone.
+
+<p align="left">
+<img src="f0_contour/f0_contour.png" width="500" alt="two methods of normalising f0 estimates">
+</p>
+
+
+## Barchart 
+
+Code for statistical tests and barchart in Kan & Murphy (2020). 
+
+<p align="left">
+<img src="barchart_k&m/barchart.png" width="500" alt="barchart">
+</p>
