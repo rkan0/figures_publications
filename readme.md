@@ -10,7 +10,7 @@ Scatterplot to compare the data of two groups. Produced while developing Crossli
 
 ## Scatterplot with LOESS curves
 
-Scatterplot from Kan (2019): LOESS curves fitted for each response condition and data points showing individual participants' scores for each condition. The figure is created in base R (as is the original in th article). Also contains code for visualising multiple comparisons with generalised linear model and beanplot. 
+Scatterplot from Kan (2019): LOESS curves fitted for each response condition and data points showing individual participants' scores for each condition. The figure is created in base R (as is the original in the article). Also contains code for visualising multiple comparisons with generalised linear model and beanplot. 
 
 <p align="left">
 <img src="scatterplot_loess/scatterplot_loess.png" width="500" alt="scatterplot with loess curves">
