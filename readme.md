@@ -2,7 +2,7 @@ Figures for publications - here with generated data set as the original research
 
 ## Scatterplot with connected paired data points
 
-Scatterplot to compare the data of two groups. Produced while developing Crosslinguistic Lexical Tasks: Cantonese version (CLT-CAN), a part of LITMUS COST IS0804 Battery (Kan et al., 2020). All participants gave numerical responses to the same set of questions. Points on the graph represent the mean value of the response for each question for each group. The two points for a given question are joint by a line that takes the colour corresponding to the group producing the higher value. Also includes code for some additional comparisons between the two groups.
+Scatterplot to compare the data of two groups. Produced while developing Crosslinguistic Lexical Tasks: Cantonese version (CLT-CAN), a part of LITMUS COST IS0804 Battery (Kan et al., 2020). All participants gave numerical responses to the same set of questions. Points on the graph represent the mean value of the response for each question for each group. The two points for a given question are joined by a line that takes the colour corresponding to the group producing the higher value. Also includes code for some additional comparisons between the two groups.
 
 <p align="left">
 <img src="scatterplot_connectedpair/scatterplot1.png" width="500" alt="scatterplot with connected paired data points">
